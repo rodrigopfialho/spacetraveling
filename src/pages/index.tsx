@@ -35,7 +35,7 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
   const [posts, setPosts] = useState<Post[]>(postsPagination.results);
   const [nextPage, setNextPage] = useState<string>(postsPagination.next_page);
 
-  const loadPosts = (): void => {
+  const morePosts = (): void => {
     if (nextPage) {
       fetch(nextPage)
         .then(response => response.json())
@@ -68,7 +68,7 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
 
       <div className={commonStyles.container}>
         {posts.map(post => (
-          <Link key={post.uid} href={`post/${post.uid}`}>
+          <Link key={post.uid} href={`/post/${post.uid}`}>
             <a className={styles.post}>
               <h2 className={`${commonStyles.heading} ${styles.title}`}>
                 {post.data.title}
@@ -91,7 +91,7 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
         ))}
 
         {nextPage && (
-          <button type="button" className={styles.loadPost} onClick={loadPosts}>
+          <button type="button" className={styles.loadPost} onClick={morePosts}>
             Carregar mais posts
           </button>
         )}
@@ -107,7 +107,7 @@ export const getStaticProps: GetStaticProps = async () => {
     [Prismic.predicates.at('document.type', 'posts')],
     {
       fetch: ['posts.title', 'posts.subtitle', 'posts.author'],
-      pageSize: 2,
+      pageSize: 1,
     }
   );
 

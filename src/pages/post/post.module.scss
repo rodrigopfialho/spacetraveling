@@ -20,6 +20,11 @@
         margin-right: 0.5rem;
       }
     }
+
+    p {
+      margin-top: 1rem;
+     
+    }
   }
   
   .content {
@@ -27,6 +32,9 @@
     font-size: 1.125rem;
     color: var(--gray-100);
     text-align: justify;
+    padding: 0 0 2rem 0;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--grey-3);
   
     h3 {
       margin: 4rem 0 2rem;
@@ -46,3 +54,29 @@
       }
     }
   }
+
+  .prevNext {
+    display: flex;
+    justify-content: space-between;
+    
+    h2 {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    span {  
+      font-size: 1rem;
+      color: var(--pink-1);
+
+    }
+
+    .next {
+      span {
+        display: flex;
+        justify-content: end;
+      }
+    }
+
+  }
+
+  
