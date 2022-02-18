@@ -53,3 +53,9 @@ yarn dev
 ## Screenshots
 ![App Screenshot](https://github.com/rodrigopfialho/spacetraveling/blob/master/public/images/p1.png)
 ![App Screenshot](https://github.com/rodrigopfialho/spacetraveling/blob/master/public/images/p2.png)
+
+## License
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+<span>Feito com 💜 por [Rodrigo](https://www.linkedin.com/in/rodrigo-pereira-2635391b2/)</span>
