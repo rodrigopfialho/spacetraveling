@@ -14,7 +14,7 @@
     SpaceTraveling é um desafio proposto na trilha do ignite, com base em um template fornecido
     pela equipe da Rocketseat. O desafio é a construção de um blog, com o gerenciador de conteúdo 
     Prismic CMS e utilizando conceitos do nextJS como o  de Static Site Generation (SSG).
-
+    <hr>
     Foi adicionado ao projeto sobre o pedido do deafio complementar alguns desafios como o Preview, 
     verificação se o poste foi editado e a adição de comentários utilizando o Github.
 
