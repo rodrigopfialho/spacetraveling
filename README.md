@@ -18,10 +18,11 @@
     Foi adicionado ao projeto sobre o pedido do deafio complementar alguns desafios como o Preview, 
     verificação se o poste foi editado e a adição de comentários utilizando o Github.
 
-    Link do [desafio](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7)
-
-    Link desafio [complementar](https://www.notion.so/Desafio-02-Adicionando-features-ao-blog-d466866c02544c79bbada9717c033d0a)
 </p>
+
+Link do [desafio](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7)
+
+Link desafio [complementar](https://www.notion.so/Desafio-02-Adicionando-features-ao-blog-d466866c02544c79bbada9717c033d0a)
 
 ## Tecnologias
 
@@ -44,6 +45,7 @@ git clone https://github.com/rodrigopfialho/spacetraveling.git
 yarn 
 
 - Inicializar o Projeto
+
 yarn dev
 ```
 <span>O projeto estará disponivel no  http://localhost:3000</span>
